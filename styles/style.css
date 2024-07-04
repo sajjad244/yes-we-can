@@ -1,6 +1,7 @@
 nav{
     background-color: aqua;
     text-align: right;
+    font-size: larger;
 }
 
 nav> ul> li{
@@ -15,4 +16,12 @@ nav li> a{
 label{
     display: block;
     margin: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid red;
+    padding: 5px 10px;
 }
