@@ -8,10 +8,56 @@
 </head>
 <body>
     <header>
-        sabbir
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Blogs</a></li>
+                <li><a href="home.html">About me</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section>
+            <h2>Please Fill-up the From</h2>
+
+            <form>
+                <label for="name">Your name: <input id="name" type="text" placeholder="Your name"></label>
+                <label for="email">Your Email: <input id="email" type="email" placeholder="Your email"></label>
+                <label for="Phone">Your Phone: <input id="phone" type="text" placeholder="Your phone"></label>
+
+                <fieldset>
+                    <legend>Pick one Pitha</legend>
+
+                    <label for="Kolapitha">
+                        <input type="radio" name="Pitha" id="Kolapitha">Kolapitha
+                    </label>
+
+                    <label for="aampitha">
+                        <input type="radio" name="Pitha" id="aampitha">Aampitha
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick one vorta</legend>
+
+                    <label for="Shutki">
+                        <input type="checkbox" name="vorta" id="Shutki">Shutki
+                    </label>
+
+                    <label for="shorisa">
+                        <input type="checkbox" name="vorta" id="shorisa">shorisa
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your massage</legend>
+                    <textarea name="" id=""></textarea>
+                </fieldset>
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </section>
 
     </main>
 

@@ -1,3 +1,18 @@
-body{
-    color: #af2323;
+nav{
+    background-color: aqua;
+    text-align: right;
+}
+
+nav> ul> li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li> a{
+    text-decoration: none;
+}
+
+label{
+    display: block;
+    margin: 20px;
 }
